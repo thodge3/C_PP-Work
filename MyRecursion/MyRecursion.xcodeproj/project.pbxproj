@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D2543A61C7C0850006C093E /* HodgeProg5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2543A51C7C0850006C093E /* HodgeProg5.cpp */; };
+		7D2543B21C7C08D7006C093E /* Maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2543B01C7C08D7006C093E /* Maze.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D2543A01C7C0850006C093E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D2543A21C7C0850006C093E /* MyRecursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyRecursion; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2543A51C7C0850006C093E /* HodgeProg5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HodgeProg5.cpp; sourceTree = "<group>"; };
+		7D2543AF1C7C08B7006C093E /* maze.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = maze.txt; path = ../../MyStack/MyStack/maze.txt; sourceTree = "<group>"; };
+		7D2543B01C7C08D7006C093E /* Maze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Maze.cpp; path = ../../MyStack/MyStack/Maze.cpp; sourceTree = "<group>"; };
+		7D2543B11C7C08D7006C093E /* Maze.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Maze.hpp; path = ../../MyStack/MyStack/Maze.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D25439F1C7C0850006C093E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D2543991C7C0850006C093E = {
+			isa = PBXGroup;
+			children = (
+				7D2543A41C7C0850006C093E /* MyRecursion */,
+				7D2543A31C7C0850006C093E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D2543A31C7C0850006C093E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D2543A21C7C0850006C093E /* MyRecursion */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D2543A41C7C0850006C093E /* MyRecursion */ = {
+			isa = PBXGroup;
+			children = (
+				7D2543A51C7C0850006C093E /* HodgeProg5.cpp */,
+				7D2543B01C7C08D7006C093E /* Maze.cpp */,
+				7D2543B11C7C08D7006C093E /* Maze.hpp */,
+				7D2543AF1C7C08B7006C093E /* maze.txt */,
+			);
+			path = MyRecursion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D2543A11C7C0850006C093E /* MyRecursion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2543A91C7C0850006C093E /* Build configuration list for PBXNativeTarget "MyRecursion" */;
+			buildPhases = (
+				7D25439E1C7C0850006C093E /* Sources */,
+				7D25439F1C7C0850006C093E /* Frameworks */,
+				7D2543A01C7C0850006C093E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRecursion;
+			productName = MyRecursion;
+			productReference = 7D2543A21C7C0850006C093E /* MyRecursion */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D25439A1C7C0850006C093E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Travis Hodge";
+				TargetAttributes = {
+					7D2543A11C7C0850006C093E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D25439D1C7C0850006C093E /* Build configuration list for PBXProject "MyRecursion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D2543991C7C0850006C093E;
+			productRefGroup = 7D2543A31C7C0850006C093E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D2543A11C7C0850006C093E /* MyRecursion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D25439E1C7C0850006C093E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2543B21C7C08D7006C093E /* Maze.cpp in Sources */,
+				7D2543A61C7C0850006C093E /* HodgeProg5.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D2543A71C7C0850006C093E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D2543A81C7C0850006C093E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D2543AA1C7C0850006C093E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D2543AB1C7C0850006C093E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D25439D1C7C0850006C093E /* Build configuration list for PBXProject "MyRecursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2543A71C7C0850006C093E /* Debug */,
+				7D2543A81C7C0850006C093E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D2543A91C7C0850006C093E /* Build configuration list for PBXNativeTarget "MyRecursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2543AA1C7C0850006C093E /* Debug */,
+				7D2543AB1C7C0850006C093E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D25439A1C7C0850006C093E /* Project object */;
+}
